@@ -84,7 +84,7 @@ CSS can be written as basic CSS, or using preprocessors like SASS, SCSS, or Post
 
 In this assignment you will use javascript to fetch data from the [PokeAPI](https://monosnap.com/file/9RGVewjicuP2ls5RXKRyZITzfOj2f1) and display it to the user. 
 
-Using the simple HTMl boilerplate in `Coding/exercise-1/pokefetch.html` as a starting point, write javascript that will return a pokemon's **sprite, types, and base stats** to the user when searched in the text field.
+Using the simple HTML boilerplate in `Coding/exercise-1/pokefetch.html` as a starting point, write javascript that will return a pokemon's **sprite, types, and base stats** to the user when searched in the text field.
 
 A basic example is demonstrated in the screenshot below: 
 
