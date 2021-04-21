@@ -20,7 +20,7 @@ Note that this is not an English test; we are not assessing your grammar or flue
 
 ### Question 1: Think before you code
 
-![screenshot](https://monosnap.com/file/PANLrLRuS0SlGrZMOttdDpj4Gg7nKw)
+![screenshot](/blob/master/Written/question-1/reference.png?raw=true)
 
 The image above is a screenshot from our blog homepage. If you were given this design to turn into a coded HTML template, how would you approach it? _Without writing any CSS or HTML code_, explain your thinking process and approach to this design. 
 
@@ -88,7 +88,7 @@ Using the simple HTMl boilerplate in `Coding/exercise-1/pokefetch.html` as a sta
 
 A basic example is demonstrated in the screenshot below: 
 
-![Screenshot](https://monosnap.com/file/9RGVewjicuP2ls5RXKRyZITzfOj2f1)
+![screenshot](/blob/master/Coding/exercise-1/pokefetch-screenshot.png?raw=true)
 
 **Requirements**
 
