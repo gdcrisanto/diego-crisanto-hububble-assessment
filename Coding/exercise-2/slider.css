@@ -1,0 +1,45 @@
+div {
+    display: flex;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;   
+}
+li{
+    display: flex;
+}
+
+li+li{
+    padding-left: 30px;
+}
+
+.slider{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider-wrapper{
+    width: 672px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.slide{
+    width:100%;
+    flex-direction: column;
+    display: none;
+}
+
+.slider-pagination-page:hover{
+    cursor: pointer;
+}
+
+.active, .dot:hover {
+  font-weight: 600;
+}

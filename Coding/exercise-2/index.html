@@ -23,12 +23,12 @@
         Slide 3
       </div>
     </div>
-    <button class="slider-prev">Prev</button>
-    <button class="slider-next">Next</button>
+    <button class="slider-prev" onclick="plusSlides(-1)">Prev</button>
+    <button class="slider-next" onclick="plusSlides(1)">Next</button>
     <ul class="slider-pagination">
-      <li class="slider-pagination-page">1</li>
-      <li class="slider-pagination-page">2</li>
-      <li class="slider-pagination-page">3</li>
+      <li class="slider-pagination-page" onclick="currentSlide(1)">1</li>
+      <li class="slider-pagination-page" onclick="currentSlide(2)">2</li>
+      <li class="slider-pagination-page" onclick="currentSlide(3)">3</li>
     </ul>
   </div>
   <script src="./slider.js"></script>

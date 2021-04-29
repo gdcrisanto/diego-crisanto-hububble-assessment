@@ -1,0 +1,5 @@
+Given this design to be coded, I would first ask for the API from which I could pull all this information from if it isn't yet provided, so that I can first see what I will be working with. I would then ask about the details of the design like when will the color of the tags or labels of each post be a certain color (the blue, green, and orange dot). After such questions, I will consider all the small details when recreating the design to the dot.
+
+I believe that one of the challenges that I will face will be the sorting of the posts that for the design. When coding this design, I should also consider the posts intended to be shown aside from just being able to display random content in such a layout.
+
+Since the information displayed within the design will dynamic, I'll be sure to take advantage of the API that handles the requests so that the design can update its own content accordingly.

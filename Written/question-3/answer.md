@@ -1,0 +1,8 @@
+Debugging has always been one of the true tests of being a developer. No matter how big or small a bug may be, it can always prove to be a challenge as well as a way to improve one's self.
+
+Although I haven't had any instances of debugging that stands out, I've still had my fair share of bugs and over through my experience, I adopted a few best practices while debugging.
+For both preventing bugs and debugging, I would always make sure to print out variables in functions where they are mutated to see if I'm getting the expected output. I find that most bugs are found when it comes to mutating variables which is why I make sure to keep track of all variables that I use and check that they are correct. Although if a bug is found, the printing of variables at certain parts of a function helps pinpoint the exact location of the bug. From there, I make sure to check what type of error is present; whether it's a simple syntax error or an error in the logic of my function, then I will devise a solution to the problem.
+
+Sometimes, I'm not able think of solutions right away so I have to take a step back and slowly look at the bug from other perspectives. In most instances, I take myself to the beginning of a function and work my way to the end just to make sure that everything is clear and usually with this method, I'm able to at least identify the issue of a function and fix it from there. I also make sure to cover as many edge cases as I can which can be done through testing.
+
+With these methods that I have gained along the way, I'm usually able to debug successfully which is a very satisfying feeling for every developer.

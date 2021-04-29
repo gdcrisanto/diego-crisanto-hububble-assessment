@@ -1,0 +1,160 @@
+html, body, .container{
+    margin: 0px;
+    height: 100%;
+}
+
+div {
+    display:flex;
+    color: #3c4043;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display:flex;
+}
+
+li{
+    display: flex;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: auto;
+    max-width: 100%;
+}
+.row{
+    display:flex;
+    width:100%
+}
+
+
+.header{
+    box-sizing: border-box;
+    padding: 0px 18px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+}
+
+.footer{
+    align-self: flex-end;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    /* flex-grow: 1; */
+    align-items: flex-end;
+}
+
+.space{
+    flex-grow: 1;
+}
+
+.country{
+    padding: 15px 30px;
+    margin: 0px;
+    border-bottom: 1px solid #dadce0;
+    box-sizing: border-box;
+}
+
+.header-nav li {
+    text-decoration: none;
+}
+
+li + li {
+    padding-left: 15px;
+}
+
+.footer-nav li {
+    text-decoration: none;
+}
+
+.row.google{
+    justify-content: center;
+    /* flex-grow: 0; */
+}
+.search{
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.search-bar{
+    width: auto;
+    max-width: 584px;
+    border:#dfe1e5 1px solid;
+    border-radius: 100px;
+    padding: 10px;
+    width: 100%;
+    max-width: 584px;
+}
+.search-bar:hover{
+    box-shadow: 0px 5px 5px -5px grey ;
+}
+
+input[type=text]{
+    border:none;
+    width: 100%;
+    max-width: 584px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.feeling-lucky{
+    /* padding-top: 18px; */
+    justify-content: center;
+}
+
+.btn-search{
+    padding: 0 16px 0 16px;
+    margin: 11px 4px 11px 4px;
+    background-color: #f8f9fa;
+    border: #f8f9fa 1px solid;
+    line-height: 27px;
+    color: #3c4043;
+}
+
+.btn-signin{
+    background: #1a73e8;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    line-height: 16px;
+    min-width: 96px;
+    padding: 9px 0 9px 0;
+}
+
+.footer-nav{
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+}
+
+.pts{
+    justify-content: flex-end;
+    padding-right:20px;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+}
+
+.offered{
+    justify-content: center;
+    font-size: 13px;
+}
+.offered .row{
+    justify-content: center;
+    font-size: 13px;
+    align-items: center;
+}
+
+.language{
+    padding:0px 0px 0px 1em;
+    color: #1a0dab;
+}
